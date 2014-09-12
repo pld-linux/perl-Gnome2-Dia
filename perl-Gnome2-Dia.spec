@@ -72,6 +72,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/Gnome2/Dia
 %{perl_vendorarch}/Gnome2/Dia/Install
 %dir %{perl_vendorarch}/auto/Gnome2/Dia
-%{perl_vendorarch}/auto/Gnome2/Dia/Dia.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/Dia/Dia.so
 %{_mandir}/man3/Gnome2::Dia*.3pm*
